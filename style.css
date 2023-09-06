@@ -89,8 +89,8 @@ a:hover{
 
 .btn{
     display: inline-block;
-    background-color: orange;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 15px;
     border-radius: 20px;
     margin: 30px;
@@ -113,6 +113,9 @@ header .row{
     
 }
 
+button{
+    color: white;
+}
 /* NOS PRODUITS  */
 .title{
     /* background-color: #c487eb; */
