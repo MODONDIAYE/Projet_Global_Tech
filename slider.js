@@ -12,4 +12,4 @@ function ChangeSlide(sens){
     // alert("bienvenue");
 }
 
-setInterval("ChangeSlide(1)", 3000);
+setInterval("ChangeSlide(1)", 4000);
