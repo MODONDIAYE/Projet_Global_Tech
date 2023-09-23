@@ -22,7 +22,7 @@ nav{
 
 
 .logo h1{
-    color: white;
+    color:#781DB0 ;
 }
 nav ul {
     display: inline-block;
@@ -41,8 +41,8 @@ a{
     color: white;
 }
 
-a:hover{
-    background-color: violet;
+.bar_nav:hover{
+    background-color: #781DB0;
 }
 
 .container{
@@ -79,7 +79,7 @@ a:hover{
     font-size: 40px;
     line-height: 60px;
     margin: 25px 0;
-    color: #781DB0
+    color: #f4f4f4
 }
 
 .col-2 p{
@@ -89,8 +89,8 @@ a:hover{
 
 .btn{
     display: inline-block;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: #781DB0;
+    color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 20px;
     margin: 30px;
@@ -98,7 +98,7 @@ a:hover{
 }
 
 .btn:hover{
-    background-color: violet;
+    background-color: #e55039;
 }
 
 header{
@@ -116,6 +116,18 @@ header .row{
 button{
     color: white;
 }
+.coloré{
+    color: #781DB0;
+}
+
+.href{
+    text-decoration: none;
+   
+    /* margin-bottom: 20px; */
+    /* padding-bottom: 50px; */
+    color: white;
+}
+
 /* NOS PRODUITS  */
 .title{
     /* background-color: #c487eb; */
@@ -145,6 +157,7 @@ h4{
 
 .col-3:hover{
     transform: translateY(-5px);
+    /* text-decoration: none; */
 }
 
 .small-container{
@@ -164,6 +177,7 @@ h4{
     margin-top: 60px;
     text-align: center;
     transition: 0.5s; 
+    
 }
 
 .col-3 img{
@@ -223,7 +237,7 @@ h4{
 /* ********************************************************************************************************************************* */
 /* creation du footer  */
 footer{ 
-    background-color: rgb(144, 141, 141) ;
+    background-color: grey ;
     color: #781DB0;
     text-align: center;
     margin-top: 195px;
